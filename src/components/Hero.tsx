@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="relative  w-160 h-120">
             {/* <div className="relative mb-6"> */}
-              <div className="absolute top-0 left-20 w-160 h-100 border-[#7572FF] border-[18px] z-1 "></div>
+              <div className="absolute top-0 left-20 w-160 h-100 border-[#7572FF] border-[18px]"></div>
               <div className="bg-white p-8 pb-12 mb-6 ml-8 mt-8 z-10 absolute top-10">
                 <h1 className="text-4xl md:text-5xl font-bold text-primary uppercase leading-tight text-[#5956E9]">
                   A Great App Makes<br />Your Life Better
