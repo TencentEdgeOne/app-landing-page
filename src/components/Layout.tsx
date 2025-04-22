@@ -1,0 +1,36 @@
+import React, { ReactNode } from 'react';
+import Head from 'next/head';
+import Header from './Header';
+import Footer from './Footer';
+import Image from 'next/image';
+
+interface LayoutProps {
+  children: ReactNode;
+  title?: string;
+  description?: string;
+}
+
+const Layout: React.FC<LayoutProps> = ({ 
+  children, 
+  title = 'App Landing Page',
+  description = 'A great app makes your life better - 优质应用让生活更美好'
+}) => {
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      
+      <Header />
+      
+      <main>{children}</main>
+      
+      <Footer />
+    </>
+  );
+};
+
+export default Layout; 
