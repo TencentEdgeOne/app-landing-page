@@ -56,7 +56,7 @@ const Hero = () => {
             {/* </div> */}
           </div>
           
-          <div className="relative hidden md:block absolute top-0 -right-40">
+          <div className="relative hidden md:block absolute top-0 -right-60">
             <Image 
               src="/images/mobile-mockup.png"
               alt="Mobile App Mockup"

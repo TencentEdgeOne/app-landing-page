@@ -38,7 +38,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 justify-center items-center">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Image
                 src="/images/facebook-icon.svg"

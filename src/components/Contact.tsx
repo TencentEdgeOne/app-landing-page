@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Contact: React.FC = () => {
   return (
     <section id="contact" className="bg-white h-20 w-full flex justify-center">
-      {/* <div className="absolute top-0 left-1/2 transform -translate-x-1/2 shadow-sm"> */}
+      {/* Contact card positioned at the center */}
       <div className="bg-white rounded-3xl shadow-video p-6 flex flex-row w-180 justify-between">
         <div>
           <div className="flex items-center">
@@ -42,7 +42,6 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
     </section>
   );
 };

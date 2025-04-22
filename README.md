@@ -1,0 +1,16 @@
+# APP Landing Page Template
+This template is an App landing page implemented with Next.js static generation and Tailwind CSS. The design is inspired by [Zelal Hossain](https://www.figma.com/community/file/995026220622307527).
+
+## Local Development
+Install dependencies: `npm install`
+Local development: `npm run dev`
+
+## Style Theme
+You can modify the color theme in `/src/styles/globals.css`.
+
+## One-Click Deployment
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=https://github.com/TencentEdgeOne/app-landing-page)
+
+
+
+
