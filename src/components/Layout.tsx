@@ -23,9 +23,11 @@ const Layout: React.FC<LayoutProps> = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <Header />
-      
-      <main>{children}</main>
+      <main className="scroll-smooth">
+
+        {/* <Header /> */}
+        {children}
+      </main>
       
       <Footer />
     </>

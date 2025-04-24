@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import Header from './Header';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center">
+    <section id="home" className="relative min-h-screen flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image 
@@ -14,6 +15,7 @@ const Hero = () => {
           style={{ objectFit: 'cover' }}
         />
       </div>
+      <Header/>
       
       <div className="container mx-auto px-4 z-10 pt-80 md:pt-32 lg:pt-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
