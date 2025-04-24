@@ -10,7 +10,7 @@ Zelal Hossain](https://www.figma.com/community/file/995026220622307527)。
 在 `/src/styles/globals.css` 可以修改样式颜色。
 
 ## 一键部署
-[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=https://github.com/TencentEdgeOne/app-landing-page)
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?template=app-landing-page)
 
 
 
