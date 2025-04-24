@@ -8,7 +8,7 @@ Local development: `npm run dev`
 ## Style Theme
 You can modify the color theme in `/src/styles/globals.css`.
 
-## One-Click Deployment
+## Deploy
 [![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.tencentcloud.com/edgeone/pages/new?template=app-landing-page)
 
 
