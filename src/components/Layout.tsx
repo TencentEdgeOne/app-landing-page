@@ -26,9 +26,9 @@ const Layout: React.FC<LayoutProps> = ({
 
         {/* <Header /> */}
         {children}
+        <Footer />
       </main>
       
-      <Footer />
     </>
   );
 };
