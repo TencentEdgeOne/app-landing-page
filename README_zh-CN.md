@@ -12,6 +12,9 @@ Zelal Hossain](https://www.figma.com/community/file/995026220622307527)。
 ## 一键部署
 [![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?template=app-landing-page)
 
-
-
+## 特性
+- 使用Next.js TypeScript 开发
+- Tailwind CSS 构建灵活简洁的样式
+- 纯静态页面，Lighthouse 分数优秀
+- 模块化、响应式、可扩展的组件
 
