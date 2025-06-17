@@ -47,7 +47,7 @@ const Screenshots: React.FC = () => {
           <h2 className="text-3xl font-bold uppercase text-secondary mb-4 text-center">
             Checkout Our App Interface Look
           </h2>
-          <p className="text-text-muted text-center max-w-2xl mx-auto mb-12">
+          <p className="text-gray-500 text-center max-w-2xl mx-auto mb-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. 
             Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. 
             Ullamcorper risus tempor, ac nunc libero urna, feugiat.

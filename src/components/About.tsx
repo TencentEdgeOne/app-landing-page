@@ -20,7 +20,7 @@ const FeatureCard: React.FC<FeatureProps> = ({ title, description }) => {
         <h3 className="text-xl font-semibold uppercase text-secondary mt-4 mb-2">{title}</h3>
       </div>
       
-      <p className="text-text-muted">{description}</p>
+      <p className="text-gray-500">{description}</p>
     </div>
   );
 };
@@ -30,7 +30,7 @@ const About: React.FC = () => {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold uppercase text-secondary text-center mb-6">About Our App</h2>
-        <p className="text-text-muted text-center max-w-2xl mx-auto mb-16">
+        <p className="text-gray-500 text-center max-w-2xl mx-auto mb-16">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. 
           Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. 
           Ullamcorper risus tempor, ac nunc libero urna, feugiat.

@@ -35,7 +35,7 @@ const Download: React.FC = () => {
             <h2 className="text-3xl font-bold uppercase text-secondary mb-4">
               Download App Now
             </h2>
-            <p className="text-text-muted mb-10 max-w-xl">
+            <p className="text-gray-500 mb-10 max-w-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. 
               Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. 
               Ullamcorper risus tempor, ac nunc libero urna, feugiat.
@@ -43,7 +43,7 @@ const Download: React.FC = () => {
             
             {/* App Store Icons */}
             <div className="flex flex-wrap gap-6 mb-12">
-              <a href="#" className="block w-48 hover:opacity-90 transition-opacity">
+              <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer" className="block w-48 hover:opacity-90 transition-opacity">
                 <Image 
                   src="/images/download-apple.png"
                   alt="Download on Apple Store"
@@ -51,7 +51,7 @@ const Download: React.FC = () => {
                   height={56}
                 />
               </a>
-              <a href="#" className="block w-48 hover:opacity-90 transition-opacity">
+              <a href="https://play.google.com/store/apps" target="_blank" rel="noopener noreferrer" className="block w-48 hover:opacity-90 transition-opacity">
                 <Image 
                   src="/images/download-google.png"
                   alt="Get it on Google Play"
