@@ -56,30 +56,44 @@ const Screenshots: React.FC = () => {
           <div className="relative mt-16 mb-16">
             {/* Phone Model */}
             <div className="relative mx-auto w-[300px] h-[600px] z-10">
-              <Image
-                src="/images/iphone-mockup.png"
-                alt="iPhone Model"
-                fill
-                className="pointer-events-none"
-              />
-              
+            
               {/* Screenshot Carousel */}
               <div className="absolute top-[40px] left-[22px] w-[256px] h-[520px] overflow-hidden rounded-2xl">
-                {screenshots.map((screenshot, index) => (
-                  <div
-                    key={screenshot.id}
-                    className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
-                      index === activeIndex ? 'opacity-100 z-10' : 'opacity-0'
-                    }`}
-                  >
-                    <Image
-                      src={screenshot.src}
-                      alt={screenshot.alt}
-                      fill
-                      style={{ objectFit: 'cover' }}
-                    />
-                  </div>
-                ))}
+                {screenshots.map((screenshot, index) => {
+                  // 计算当前截图相对于活动截图的位置
+                  const position = index - activeIndex;
+                  
+                  // 根据位置设置不同的样式
+                  const getPositionStyles = () => {
+                    if (position === 0) {
+                      // 当前选中的截图
+                      return 'opacity-100 z-20 translate-x-0';
+                    } else if (position === -1) {
+                      // 前一张截图
+                      return 'opacity-50 z-10 -translate-x-[200px]';
+                    } else if (position === 1) {
+                      // 后一张截图
+                      return 'opacity-50 z-10 translate-x-[200px]';
+                    } else {
+                      // 其他截图隐藏
+                      return 'opacity-0 z-0 translate-x-[400px]';
+                    }
+                  };
+
+                  return (
+                    <div
+                      key={screenshot.id}
+                      className={`absolute top-0 left-0 w-full h-full transition-all duration-500 ${getPositionStyles()}`}
+                    >
+                      <Image
+                        src={screenshot.src}
+                        alt={screenshot.alt}
+                        fill
+                        style={{ objectFit: 'cover' }}
+                      />
+                    </div>
+                  );
+                })}
               </div>
             </div>
             
