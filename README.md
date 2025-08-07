@@ -9,7 +9,7 @@ Local development: `npm run dev`
 You can modify the color theme in `/src/styles/globals.css`.
 
 ## Deploy
-[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](http://edgeone.ai/pages/new?template=app-landing-page)
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](http://edgeone.ai/pages/new?template=app-landing-page&from=github)
 
 ## Features
 - Developed with Next.js TypeScript
